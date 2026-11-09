@@ -102,7 +102,7 @@ spec:
           restartPolicy: Never
           containers:
             - name: collector
-              image: ghcr.io/iareanthony/tib-collector:feature-kubernetes-deployment
+              image: ghcr.io/iareanthony/tib-collector:feature-kubernetes-deployment@sha256:8396de99a06130adb227b5a18014f51b94c5cb4ca5e5112a0ed2bba0e68070c4
               imagePullPolicy: Always
               args:
                 - --once
