@@ -100,6 +100,9 @@ make build       # rebuild collector image
 make clean       # stop and delete all volumes
 ```
 
+The Kubernetes collector image is rebuilt without cache from Alpine 3.23 and
+upgrades its base packages before installing the pinned Python dependencies.
+
 ---
 
 ## In-a-box ecosystem
